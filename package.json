@@ -1,0 +1,16 @@
+{
+  "name": "braille",
+  "version": "1.0.0",
+  "description": "Coding dojo kata to create a braille translator",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node -r esm src/app.js",
+    "test": "jasmine --require=esm --config=jasmine.json"
+  },
+  "author": "Coding Dojo Silesia",
+  "license": "MIT",
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "jasmine": "^3.5.0"
+  }
+}
